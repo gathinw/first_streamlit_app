@@ -44,7 +44,7 @@ streamlit.text("The fruit load list contains:")
 streamlit.text(my_data_rows)
 
 #display the table on the page
-streamlit.dataframe(fruits_to_show)
+streamlit.dataframe(fruit_load_list)
 
 streamlit.text ("What fruit would you like to add?")
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Jackfruit')
